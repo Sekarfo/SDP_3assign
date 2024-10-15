@@ -1,6 +1,7 @@
 package taskprocessing;
 
 public abstract class TaskHandler {
+
     protected TaskHandler nextHandler;
 
     public void setNextHandler(TaskHandler nextHandler) {
