@@ -9,7 +9,7 @@ public class ProcessTaskCommand implements TaskCommand {
 
     @Override
     public void execute() {
-        System.out.println("Executing task: " + task.getName());
+        System.out.println("Executing task: " + task.getName()+" Handle as "+task.getPriority());
         task.process();
     }
 }
